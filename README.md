@@ -30,7 +30,7 @@ Continue on to package the code as a single runnable application if desired.
 pip install pyinstaller
 ```
 5. Navigate to the directory containing the files downloaded from github and type "cmd" in the file explorer adress bar, which should bring up cmd starting at that directory.
-6. Copy and paste the below code into cmd and pyinstaller should begin packaging the code. This should take around 5 minutes, and wants complete the .exe will be placed in the dist folder in your directory.
+6. Copy and paste the below code into cmd and pyinstaller should begin packaging the code. This should take around 5 minutes, and once complete the .exe will be placed in the dist folder in your directory.
 ```bash
 pyinstaller --onefile --name WSBFinScrape --clean --noconsole --add-data gorillaicon.jpg;. --add-data WallStreetBets.png;. --icon=gorillaicon_UrM_icon.ico mainGUI.py
 ```
