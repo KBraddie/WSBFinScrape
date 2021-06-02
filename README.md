@@ -17,7 +17,7 @@ Breakdown:
 ## Installation
 
 1. Download all the files from github and place them in a single folder.
-2. Install the 4 Python packages using the code below in cmd (Python needs to be installed and added to your system PATH). 
+2. Install the 5 Python packages using the code below in cmd (Python needs to be installed and added to your system PATH). 
 ```bash
 pip install openpyxl praw yfinance pandas PyQT5
 ```
