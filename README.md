@@ -35,6 +35,8 @@ pip install pyinstaller
 pyinstaller --onefile --name WSBFinScrape --clean --noconsole --add-data gorillaicon.jpg;. --add-data WallStreetBets.png;. --icon=gorillaicon_UrM_icon.ico mainGUI.py
 ```
 
+Alternatively a pre packaged exe can be downloaded in "Releases".
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
