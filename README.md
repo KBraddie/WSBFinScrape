@@ -14,6 +14,9 @@ Breakdown:
 
 * Tickers found are stored in memory and checked against when the App is next run. Any Tickers that haven't been previously found are highlighed in Cyan as New.
 
+## Images
+https://imgur.com/gallery/SzjFMmX
+
 ## Installation
 
 1. Download all the files from github and place them in a single folder.
