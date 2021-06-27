@@ -8,7 +8,7 @@ Breakdown:
 
 * Finds related Due Diligence posts for each ticker in the list.
 
-* Displays the Stocker ticker, number of mentions, current price and number of Due Dligience posts found in a easy to read table format. All stock information is downloaded from Yahho Finance.
+* Displays the Stock ticker, number of mentions, current price and number of Due Dligience posts found in a easy to read table format. All stock information is downloaded from Yahho Finance.
 
 * Each Ticker can be clicked to open a new window, displaying all related Due Diligence posts, URL links to the posts, Year-to-Date price data and a button to download the description of the stock.
 
