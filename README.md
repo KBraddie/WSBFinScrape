@@ -20,9 +20,9 @@ https://imgur.com/gallery/SzjFMmX
 ## Installation
 
 1. Download all the files from github and place them in a single folder.
-2. Install the 5 Python packages using the code below in cmd (Python needs to be installed and added to your system PATH). 
+2. Install the 6 Python packages using the code below in cmd (Python needs to be installed and added to your system PATH). 
 ```bash
-pip install openpyxl praw yfinance pandas PyQT5
+pip install openpyxl praw yfinance pandas PyQT5 matplotlib
 ```
 3. Run the App by running the mainGUI.py file with Python.
 
