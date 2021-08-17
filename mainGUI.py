@@ -282,6 +282,15 @@ class MainWindow(QWidget): #Main application GUI
             print("Post count changed to: ", sld.value())
             configfile.close()
 
+            msgBox = QMessageBox()
+            msgBox.setIcon(QMessageBox.Information)
+            msgBox.setText("Post Count Saved!")
+            msgBox.setWindowTitle("Info")
+            msgBox.setStandardButtons(QMessageBox.Ok)
+            msgBox.exec()
+
+
+
         #CREATES DIALOG FOR CHANGING SETTINGS
         whoDialog = QDialog(self)
         whoDialog.setWindowTitle("Number of Posts to Read?")
