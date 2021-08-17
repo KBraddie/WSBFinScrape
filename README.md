@@ -8,18 +8,21 @@ Breakdown:
 
 * Finds related Due Diligence posts for each ticker in the list.
 
-* Displays the Stocker ticker, number of mentions, current price and number of Due Dligience posts found in a easy to read table format. All stock information is downloaded from Yahho Finance.
+* Displays the Stock ticker, number of mentions, current price and number of Due Dligience posts found in an easy to read table format. All stock information is downloaded from Yahho Finance.
 
 * Each Ticker can be clicked to open a new window, displaying all related Due Diligence posts, URL links to the posts, Year-to-Date price data and a button to download the description of the stock.
 
-* Tickers found are stored in memory and checked against when the App is next run. Any Tickers that haven't been previously found are highlighed in Cyan as New.
+* Tickers found are stored in memory and checked against when the App is next run. Any Tickers that haven't been previously found are highlighed in Cyan to highlight them as New.
+
+## Images
+https://imgur.com/gallery/SzjFMmX
 
 ## Installation
 
 1. Download all the files from github and place them in a single folder.
-2. Install the 4 Python packages using the code below in cmd (Python needs to be installed and added to your system PATH). 
+2. Install the 6 Python packages using the code below in cmd (Python needs to be installed and added to your system PATH). 
 ```bash
-pip install openpyxl praw yfinance pandas PyQT5
+pip install openpyxl praw yfinance pandas PyQT5 matplotlib
 ```
 3. Run the App by running the mainGUI.py file with Python.
 
@@ -30,10 +33,12 @@ Continue on to package the code as a single runnable application if desired.
 pip install pyinstaller
 ```
 5. Navigate to the directory containing the files downloaded from github and type "cmd" in the file explorer adress bar, which should bring up cmd starting at that directory.
-6. Copy and paste the below code into cmd and pyinstaller should begin packaging the code. This should take around 5 minutes, and wants complete the .exe will be placed in the dist folder in your directory.
+6. Copy and paste the below code into cmd and pyinstaller should begin packaging the code. This should take around 5 minutes, and once complete the .exe will be placed in the dist folder in your directory.
 ```bash
 pyinstaller --onefile --name WSBFinScrape --clean --noconsole --add-data gorillaicon.jpg;. --add-data WallStreetBets.png;. --icon=gorillaicon_UrM_icon.ico mainGUI.py
 ```
+
+Alternatively a pre packaged exe can be downloaded in "Releases".
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
