@@ -16,9 +16,13 @@ Breakdown:
 
 ## Images
 ![Loading Splash Screen](https://github.com/Nebulezz/WSBFinScrape/blob/master/Images/1%20-%20kBzXJ9f.png?raw=true)
+
 ![Main screen/Ticker list](https://github.com/Nebulezz/WSBFinScrape/blob/master/Images/2%20-%207eRJ7B5.png?raw=true)
+
 ![Ticker post and Stock analysis](https://github.com/Nebulezz/WSBFinScrape/blob/master/Images/3%20-%20WtJZpXe.png?raw=true)
+
 ![Post URL](https://github.com/Nebulezz/WSBFinScrape/blob/master/Images/4%20-%209JwJrAk.png?raw=true)
+
 ![Stock information pop-up](https://github.com/Nebulezz/WSBFinScrape/blob/master/Images/5%20-%20D1IkuE1.png?raw=true)
 
 ## Installation
