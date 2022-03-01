@@ -15,7 +15,7 @@ Breakdown:
 * Tickers found are stored in memory and checked against when the App is next run. Any Tickers that haven't been previously found are highlighed in Cyan to highlight them as New.
 
 ## Images
-https://imgur.com/gallery/SzjFMmX
+![Image1](https://imgur.com/kBzXJ9f)
 
 ## Installation
 
